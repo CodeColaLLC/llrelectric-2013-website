@@ -17,10 +17,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cp CNAME build",
+    "build": "react-scripts docs && cp CNAME docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "PUBLIC_URL=https://llrelectric.com/ npm run build && surge build"
+    "deploy": "PUBLIC_URL=https://llrelectric.com/ npm run build && surge docs"
   },
   "eslintConfig": {
     "extends": "react-app"
