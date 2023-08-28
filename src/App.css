@@ -30,9 +30,11 @@ body, #root {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 2em;
-
   margin: auto;
+}
+
+.client-logos.bottom {
+  padding-bottom: 2em;
 }
 
 .client-logos img {

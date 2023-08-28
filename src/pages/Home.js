@@ -12,6 +12,8 @@ import cop from '../assets/images/company-logos/cop.jpg';
 import pvgs from '../assets/images/company-logos/pvgs.jpg';
 import seam from '../assets/images/company-logos/seam.jpg';
 import dayzimmer from '../assets/images/company-logos/day-zimmer.jpg';
+import abbott from '../assets/images/company-logos/abbott.png';
+import cmc from '../assets/images/company-logos/cmc.png';
 
 import ppe from '../assets/images/ppe-electrical-box.jpg'
 
@@ -228,9 +230,13 @@ const HomePage = () => (
                             <img src={copenhagen} style={{height: 60, paddingRight: 10}} />
                             <img src={ups} />
                             <img src={cop} style={{height: 60}} />
+                        </div>
+                        <div className='client-logos bottom'>
                             <img src={seam} style={{height: 60}} />
-                            <img src={dayzimmer} />
+                            {/*<img src={dayzimmer} />*/}
                             <img src={pvgs} style={{height: 60}} />
+                            <img src={abbott} style={{height: 60}} />
+                            <img src={cmc} style={{height: 75}} />
 
                         </div>
                     </Grid.Column>
